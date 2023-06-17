@@ -1,0 +1,96 @@
+* {
+    background-color: #1c1c1c;
+}
+
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.result {
+    border: transparent;
+    color: white;
+    width: 397px;
+    font-size: 3em;
+    padding-bottom: 70px;
+
+}
+
+.row {
+    padding-bottom: 40px;
+    justify-content: space-between;
+
+}
+
+.btn.grey {
+
+    background-color: #d4d4d2;
+
+}
+
+.btn.yellow {
+    background-color: #ff9500;
+}
+
+.btn.black {
+    background-color: #505050;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 100%;
+    background-color: #505050;
+    color: white;
+    text-align: center;
+    border: transparent;
+    align-items: center;
+
+
+}
+
+.btn0 {
+    width: 200px;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 61px;
+    background-color: #505050;
+    color: white;
+    text-align: center;
+    border: transparent;
+}
+
+
+@media (max-width:746px) {
+
+    .main {
+        padding: auto;
+    }
+
+    .result {
+        width: 223px;
+        font-size: 2.5em;
+        padding-bottom: 50px;
+
+    }
+
+    .btn {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5em;
+
+
+    }
+
+    .btn0 {
+        width: 130px;
+        height: 60px;
+        font-size: 1.5em;
+        border-radius: 61px;
+    }
+
+}

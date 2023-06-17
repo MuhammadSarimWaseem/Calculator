@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="input">
+            <input type="" class="result" id="result">
+        </div>
+        <div class="row">
+            <button class=" btn grey " onclick="clearresult(' ')">C</button>
+            <button class=" btn grey" onclick="getnumber('/')">//</button>
+            <button class=" btn grey" onclick="getnumber('%')">%</button>
+            <button class=" btn yellow" onclick="getnumber('/')">/</button>
+        </div>
+        <div class="row">
+            <button class=" btn black" onclick="getnumber('7')">7</button>
+            <button class=" btn black" onclick="getnumber('8')">8</button>
+            <button class=" btn black" onclick="getnumber('9')">9</button>
+            <button class=" btn yellow" onclick="getnumber('*')">x</button>
+        </div>
+        <div class="row">
+            <button class=" btn black" onclick="getnumber('4')">4</button>
+            <button class=" btn black" onclick="getnumber('5')">5</button>
+            <button class=" btn black" onclick="getnumber('6')">6</button>
+            <button class=" btn yellow" onclick="getnumber('-')">-</button>
+        </div>
+        <div class="row">
+            <button class=" btn black" onclick="getnumber('1')">1</button>
+            <button class=" btn black" onclick="getnumber('2')">2</button>
+            <button class=" btn black" onclick="getnumber('3')">3</button>
+            <button class=" btn yellow" onclick="getnumber('+')">+</button>
+        </div>
+        <div class="row">
+            <button class=" btn0" onclick="getnumber('0')">0</button>
+            <button class=" btn black" onclick="getnumber('.')">.</button>
+            <button class=" btn yellow" onclick="getresult('=')">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
